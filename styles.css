@@ -1,0 +1,58 @@
+/* Estilos generales para el cuerpo del documento */
+body {
+    /* Fuente a usar en el documento */
+    font-family: Arial, sans-serif;
+    /* Altura de línea para mejorar la legibilidad */
+    line-height: 1.6;
+     /* Color de fondo para el cuerpo */
+    background-color: #f0f0f0;
+     /* Margen exterior del cuerpo */
+    margin: 0;
+    /* Relleno interior del cuerpo */
+    padding: 0;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    /* Ancho del contenedor, relativo al ancho de la ventana */
+    width: 80%;
+    /* Centrar el contenedor horizontalmente */
+    margin: auto;
+    /* Color de fondo del contenedor */
+    background-color: #90cad1;
+    /* Relleno interior del contenedor */
+    padding: 20px;
+    /* Sombra alrededor del contenedor */
+    box-shadow: 0 0 10px rgba(35, 163, 202, 0.32);
+}
+
+/* Estilos para los encabezados h1, h2 y h3 */
+h1, h2, h3 {
+    /* Color del texto de los encabezados */
+    color: #1433e6;
+}
+
+/* Estilos para la sección de filtros */
+#filters {
+    /* Espacio inferior adicional para separar de otros elementos */
+    margin-bottom: 20px;
+}
+
+/* Estilos para cada producto */
+.product {
+     /* Borde alrededor de cada producto */
+    border: 1px solid #4d78e5;
+    /* Color de fondo para cada producto */
+    background-color: #f9f9f9;
+    /* Relleno interior de cada producto */
+    padding: 10px;
+    /* Margen inferior para separar productos entre sí */
+    margin-bottom: 10px;
+}
+
+/* Estilos específicos para los encabezados dentro de cada producto */
+.product h3 {
+    /* Eliminar margen superior del encabezado */
+    margin-top: 0;
+}
+

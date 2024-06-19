@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+ <!-- Metaetiqueta para especificar el juego de caracteres del documento -->
+<meta charset="UTF-8">
+<!-- Metaetiqueta para configurar la vista del navegador para dispositivos móviles -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Título del documento que se muestra en la pestaña del navegador -->
+<title>Venta de números</title>
+<!-- Enlace a un archivo CSS externo para estilos -->
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<!-- Contenedor principal de la página -->
+<div class="container">
+    <!-- Encabezado principal de la página -->
+    <h1>Por ocasión especial, ¡puede adquirir números!</h1>
+
+    <!-- Sección de filtros para seleccionar categorías -->
+    <div id="filters">
+        <!-- Sub-encabezado para la sección de filtros -->
+        <h2>Filtros:</h2>
+        <!-- Etiquetas y checkboxes para cada filtro -->
+        <label><input type="checkbox" class="filter" data-filter="categoria1"> 1</label>
+        <label><input type="checkbox" class="filter" data-filter="categoria2"> 2</label>
+        <label><input type="checkbox" class="filter" data-filter="categoria3"> 3</label>
+        <label><input type="checkbox" class="filter" data-filter="categoria4"> 4</label>
+    </div>
+
+    <!-- Sección para listar productos -->
+    <div id="product-list">
+        <!-- Producto 1 con categoría especificada -->
+        <div class="product" data-categoria="categoria1">
+            <!-- Título del producto -->
+            <h3>Producto 1</h3>
+            <!-- Descripción del producto -->
+            <p>Usted puede llevarse el hermoso número 1.</p>
+        </div>
+
+        <!-- Producto 2 con categoría especificada -->
+        <div class="product" data-categoria="categoria2">
+            <h3>Producto 2</h3>
+            <p>Usted puede llevarse el maravilloso número 2.</p>
+        </div>
+
+        <!-- Producto 3 con categoría especificada -->
+        <div class="product" data-categoria="categoria3">
+            <h3>Producto 3</h3>
+            <p>Usted puede llevarse el inigualable número 3.</p>
+        </div>
+
+        <!-- Producto 4 con categoría especificada -->
+        <div class="product" data-categoria="categoria4">
+            <h3>Producto 4</h3>
+            <p>Usted puede llevarse el único número 4.</p>
+        </div>
+    </div>
+
+    <!-- Botón para resetear los filtros -->
+    <button id="reset-button">Limpiar Filtros</button>
+</div>
+
+<!-- Enlace al archivo JavaScript externo -->
+<script src="script.js"></script>
+</body>
+</html>
